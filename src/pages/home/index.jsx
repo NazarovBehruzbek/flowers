@@ -30,7 +30,7 @@ export default function Home() {
     return (
         <div className='bg-gray-100 min-h-screen p-3'>
             <div className='container mx-auto'>
-                <h1 className='text-2xl text-center font-semibold animate__animated animate__bounceInLeft'>Flowers</h1>
+                <h1 className='text-2xl text-center font-semibold animate__animated animate__bounceInLeft'>Flowers and news</h1>
                 <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-6'>
                     {flowers && flowers.map((item, index) => (
                         <Card id={item?.id} key={index} image={item?.image} title={item?.title} description={item?.description} />
